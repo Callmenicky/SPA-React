@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*Preloader*/
+
+.preloader-transition-enter {
+  opacity: 0;
+  transform: translateY(100%);
+}
+
+.preloader-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 3000ms, transform 3000ms;
+}
+
+.preloader-transition-exit {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 3000ms, transform 3000ms;
+}
+
+.preloader-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 3000ms, transform 3000ms;
+}
+
+.page-transition-enter {
+  opacity: 1;
+  transform: translateY(100%);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: opacity 10000ms, transform 10000ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-100%);
+  transition: opacity 10000ms, transform 10000ms;
+}
+
+
+
+
+
+
+
+
+

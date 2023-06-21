@@ -1,0 +1,100 @@
+      <nav>
+        <ul>
+          <li>
+            <Link
+              activeClass="active"
+              to="slogan"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Slogan
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="short-description"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Short Description
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="what-we-do"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              What We Do
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="unforgettable-results"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Unforgettable Results
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="clients-say"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              What Clients Say
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              to="super-proud"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              Super Proud to Work With
+            </Link>
+          </li>
+        </ul>
+      </nav>
+
+    
+
+<Routes>
+      <Route path="/" element={<Start />}>
+          <Route index element={<HomePage />} />
+          <Route path="blogs" element={<UserPage />} />
+          <Route path="contact" element={<HomePage />} />
+          <Route path="*" element={<HomePage />} />
+        </Route>
+    </Routes>
+
+
+
+
+
+
+
+
+
+
+For the previous code, i will like to add styling based on the requirements below
+1.  ur_left is at the left side and ur_right is at the right side
+2. 

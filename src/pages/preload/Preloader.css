@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../public/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf');
+    font-weight: bold;
+  }
+  
+
+.preloader {
+    background-color: cyan;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    /* Add any other desired styles for the preloader container */
+  }
+  
+  .preloader__spinner {
+    display: flex;
+    align-items: center;
+    /* Add any other desired styles for the loading spinner */
+  }
+  
+  .pl_left {
+    display: inline-block;
+    width: 45%; /* Adjust the width as per your preference */
+    color: white;
+    vertical-align: middle;
+    background-color: transparent; 
+    font-size: 125px;
+    margin-right: 10px;
+    margin-left : 250px;
+    margin-top: 300px;
+    /* Add any other desired styles for the left text */
+  }
+
+  .pl_left > div:first-child {
+    margin-bottom: -60px;
+  }
+  
+  .pl_right {
+    display: inline-block;
+    width: 45%; 
+    margin-left: 80px;
+    margin-top : 400px;/* Adjust the width as per your preference */
+    /* Add any other desired styles for the right container */
+  }
+  
+  .pl_right__pill {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: cyan;
+    border-radius: 60px;
+    padding: 5px 10px;
+    transform: rotate(-10deg);
+    font-size: 80px; /* Adjust the font size as per your preference */
+    width: 275px; /* Adjust the width as per your preference */
+    height: 125px; /* Adjust the height as per your preference */
+    /* Add any other desired styles for the pill-shaped outline */
+  }
+
+
+  
